@@ -1,1 +1,25 @@
-@import "node_modules/modern-normalize/modern-normalize.css";
+@import "../node_modules/modern-normalize/modern-normalize.css";
+
+@font-face {
+  font-family: "BungeeTint";
+  src: local("Bungee_Tint"), url("./fonts/Bungee_Tint/-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"), url("./fonts/Raleway/Raleway-VariableFont_wght.ttf");
+}
+
+:root {
+  --text-color: #ffffff;
+  font-family: "Raleway", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: var(--text-color);
+}

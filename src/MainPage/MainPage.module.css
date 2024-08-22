@@ -1,0 +1,36 @@
+.hero {
+  width: 100vw;
+  height: 800px;
+  background-image: url("../img/heroBG.jpg");
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  text-transform: uppercase;
+
+  .plumbobLogo {
+    height: 36px;
+  }
+}
+
+.selfContainer {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  filter: drop-shadow(0 0 20px #fff);
+}
+
+.plumbob {
+  height: 80px;
+  object-fit: contain;
+  /* filter: drop-shadow(0 0 20px #fff); */
+}
+
+.selfPic {
+  height: 400px;
+  /* filter: drop-shadow(0 0 20px #fff); */
+}
