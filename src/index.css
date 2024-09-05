@@ -7,7 +7,23 @@
 
 @font-face {
   font-family: "Raleway";
-  src: local("Raleway"), url("./fonts/Raleway/Raleway-VariableFont_wght.ttf");
+  src: local("Raleway"), url("./fonts/Raleway/static/Raleway-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"), url("./fonts/Raleway/static/Raleway-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"), url("./fonts/Raleway/static/Raleway-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
 }
 
 :root {

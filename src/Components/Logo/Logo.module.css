@@ -1,0 +1,14 @@
+.logoContainer {
+  position: fixed;
+  top: 40px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  text-transform: uppercase;
+
+  .plumbobLogo {
+    height: 36px;
+  }
+}
