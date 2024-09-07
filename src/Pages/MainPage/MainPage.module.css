@@ -1,0 +1,28 @@
+.main {
+  width: 100vw;
+  height: 800px;
+  background-color: black;
+  padding: 40px;
+}
+
+.header {
+  margin: 40px auto 80px;
+  width: fit-content;
+  padding: 20px;
+
+  border: 1px solid;
+  border-radius: 16px;
+  /* background-color: rgba(169, 169, 169, 0.323); */
+
+  text-transform: uppercase;
+}
+
+.navigation {
+  margin: auto;
+  width: 680px;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  align-items: center;
+  justify-content: space-between;
+}

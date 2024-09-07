@@ -1,0 +1,365 @@
+[
+  {
+    "pack": "money",
+    "codes": [
+      { "kaching": "receive 1000 simoleons" },
+      { "code": "rosebud", "description": "receive 1000 simoleons" },
+      { "code": "motherlode", "description": "receive 50000 simoleons" },
+      {
+        "code": "Money",
+        "description": "type any number after the word money to receive that precise amount of dosh"
+      },
+      {
+        "code": "FreeRealEstate on",
+        "description": "(or off) all the lots in this area become free"
+      },
+      {
+        "code": "household.autopay_bills true",
+        "description": "( or false) this one enables or disables monthly bill payments"
+      }
+    ]
+  },
+  {
+    "pack": "build",
+    "codes": [
+      {
+        "code": "bb.moveobjects",
+        "description": "lets you put items wherever you want"
+      },
+      {
+        "code": "bb.showhiddenobjects",
+        "description": "reveals hidden objects and lets you buy them"
+      },
+      {
+        "code": "bb.enablefreebuild",
+        "description": "lets you build wherever you want"
+      },
+      {
+        "code": "bb.ignoregameplayunlocksentitlement",
+        "description": "lets you get items that are usually locked into certain careers"
+      }
+    ]
+  },
+  {
+    "pack": "live",
+    "codes": [
+      {
+        "code": "resetsim [firstname lastname]",
+        "description": "this will reset a stuck Sim, as long as you spell the name right"
+      },
+      {
+        "code": "aspirations.complete_current_milestone",
+        "description": "completes the Sim's current aspirational goal"
+      },
+      {
+        "code": "sims.give_satisfaction_points [#]",
+        "description": "type any number you want, your Sim will get that many satisfaction points"
+      },
+      {
+        "code": "fillmotive motive_Bladder",
+        "description": "or Energy or Fun or Hunger or Hygiene or Social - fulfils the specified motive"
+      },
+      {
+        "code": "sims.fill_all_commodities",
+        "description": "fulfils every motive in the household"
+      }
+    ]
+  },
+  {
+    "pack": "interface",
+    "codes": [
+      {
+        "code": "headlineeffects on",
+        "description": "(or off) controls headline effects such as speech bubbles"
+      },
+      {
+        "code": "hovereffects on",
+        "description": "(or off) controls the hover effect when you move over a Sim"
+      },
+      {
+        "code": "fullscreenToggle",
+        "description": "will make the game either full screen or windowed on PC"
+      },
+      {
+        "code": "fps on",
+        "description": "(or off) will show or hide the current frames per second on the screen"
+      }
+    ]
+  },
+  {
+    "pack": "skills",
+    "codes": [
+      {
+        "code": "stats.set_skill_level Major_Bartending 10",
+        "description": "Bartending"
+      },
+      {
+        "code": "stats.set_skill_level Major_Charisma 10",
+        "description": "Charisma"
+      },
+      {
+        "code": "stats.set_skill_level Major_Comedy 10",
+        "description": "Comedy"
+      },
+      {
+        "code": "stats.set_skill_level Major_Fishing 10",
+        "description": "Fishing"
+      },
+      {
+        "code": "stats.set_skill_level Skill_Fitness 10",
+        "description": "Fitness"
+      },
+      {
+        "code": "stats.set_skill_level Major_Gardening 10",
+        "description": "Gardening"
+      },
+      {
+        "code": "stats.set_skill_level Major_GourmetCooking 10",
+        "description": "GourmetCooking"
+      },
+      {
+        "code": "stats.set_skill_level Major_Guitar 10",
+        "description": "Guitar"
+      },
+      {
+        "code": "stats.set_skill_level Major_Handiness 10",
+        "description": "Handiness"
+      },
+      {
+        "code": "stats.set_skill_level Major_HomestyleCooking 10",
+        "description": "HomestyleCooking"
+      },
+      {
+        "code": "stats.set_skill_level Major_Logic 10",
+        "description": "Logic"
+      },
+      {
+        "code": "stats.set_skill_level Major_Mischief 10",
+        "description": "Mischief"
+      },
+      {
+        "code": "stats.set_skill_level Major_Painting 10",
+        "description": "Painting"
+      },
+      {
+        "code": "stats.set_skill_level Major_Photography 10",
+        "description": "Photography"
+      },
+      {
+        "code": "stats.set_skill_level Major_Piano 10",
+        "description": "Piano"
+      },
+      {
+        "code": "stats.set_skill_level Major_Programming 10",
+        "description": "Programming"
+      },
+      {
+        "code": "stats.set_skill_level Major_RocketScience 10",
+        "description": "RocketScience"
+      },
+      {
+        "code": "stats.set_skill_level Major_VideoGaming 10",
+        "description": "VideoGaming"
+      },
+      {
+        "code": "stats.set_skill_level Major_Violin 10",
+        "description": "Violin"
+      },
+      {
+        "code": "stats.set_skill_level Major_Writing 10",
+        "description": "Writing"
+      }
+    ]
+  },
+  {
+    "pack": "childSkills",
+    "codes": [
+      {
+        "code": "stats.set_skill_level Skill_Child_Creativity 10",
+        "description": "Creativity"
+      },
+      {
+        "code": "stats.set_skill_level Skill_Child_Mental 10",
+        "description": "Mental"
+      },
+      {
+        "code": "stats.set_skill_level Skill_Child_Motor 10",
+        "description": "Motor"
+      },
+      {
+        "code": "stats.set_skill_level Skill_Child_Social 10",
+        "description": "Social"
+      }
+    ]
+  },
+
+  {
+    "pack": "toddlerSkills",
+    "codes": [
+      {
+        "code": "stats.set_skill_level_Toddler_Communication 5",
+        "description": "Communication"
+      },
+      {
+        "code": "stats.set_skill_level_Toddler_Imagination 5",
+        "description": "Imagination"
+      },
+      {
+        "code": "stats.set_skill_level_Toddler_Movement 5",
+        "description": "Movement"
+      },
+      {
+        "code": "stats.set_skill_level_Toddler_Potty 3",
+        "description": "Potty"
+      },
+      {
+        "code": "stats.set_skill_level_Toddler_Thinking 5",
+        "description": "Thinking"
+      }
+    ]
+  },
+  {
+    "pack": "",
+    "codes": [
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" }
+    ]
+  },
+  {
+    "pack": "career",
+    "codes": [
+      { "code": "careers.promote", "description": "your Sim gets promoted" },
+      {
+        "code": "careers.add_career",
+        "description": "gives your Sim a new career of your choice"
+      },
+      {
+        "code": "careers.remove_career",
+        "description": "removes a career of your choice from your Sim"
+      },
+      {
+        "code": "careers.retire",
+        "description": "your Sims retires from your chosen career and will get a weekly pension instead"
+      }
+    ]
+  },
+  {
+    "pack": "careerList",
+    "codes": [
+      {
+        "code": "Activist",
+        "description": "Politician, requires The Sims 4 City Living expansion"
+      },
+      {
+        "code": "Actor",
+        "description": "Acting, requires The Sims 4 Get Famous expansion"
+      },
+      { "code": "Astronaut", "description": "Astronaut" },
+      { "code": "Athletic", "description": "Athletic" },
+      { "code": "Business", "description": "Business" },
+      { "code": "Criminal", "description": "Criminal" },
+      {
+        "code": "Careers_Adult_Critic",
+        "description": "Critic, requires The Sims 4 City Living expansion"
+      },
+      { "code": "Culinary", "description": "Culinary" },
+      {
+        "code": "Detective",
+        "description": "Detective, requires The Sims 4 Get to Work expansion"
+      },
+      {
+        "code": "Doctor",
+        "description": "Doctor, requires The Sims 4 Get to Work expansion"
+      },
+      { "code": "Entertainer", "description": "Entertainer" },
+      { "code": "Painter", "description": "Painter" },
+      {
+        "code": "Scientist",
+        "description": "Scientist, requires The Sims 4 Get to Work expansion"
+      },
+      { "code": "SecretAgent", "description": "SecretAgent" },
+      {
+        "code": "SocialMedia",
+        "description": "SocialMedia (requires The Sims 4 City Living expansion)"
+      },
+      { "code": "Influencer", "description": "Style Influencer" },
+      { "code": "TechGuru", "description": "TechGuru" },
+      { "code": "Writer", "description": "Writer" }
+    ]
+  },
+  {
+    "pack": "teenCareers",
+    "codes": [
+      { "code": "Teen_Babysitter", "description": "Babysitter" },
+      { "code": "Teen_Barista", "description": "Barista" },
+      { "code": "Teen_FastFood", "description": "Fast Food Employee" },
+      {
+        "code": "Scout",
+        "description": "Scout, requires The Sims 4 Seasons expansion"
+      },
+      { "code": "Teen_Manual", "description": "Manual Laborer" },
+      { "code": "Teen_Retail", "description": "Retail Employee" }
+    ]
+  },
+  {
+    "pack": "",
+    "codes": [
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" }
+    ]
+  },
+  {
+    "pack": "",
+    "codes": [
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" }
+    ]
+  },
+  {
+    "pack": "",
+    "codes": [
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" }
+    ]
+  },
+  {
+    "pack": "",
+    "codes": [
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" }
+    ]
+  },
+  {
+    "pack": "",
+    "codes": [
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" },
+      { "code": "", "description": "" }
+    ]
+  }
+]

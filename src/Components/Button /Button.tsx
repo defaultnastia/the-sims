@@ -1,20 +1,30 @@
 import css from "./Button.module.css";
 
+type Button = "normal" | "red";
+
 type Props = {
-  type: string;
+  customType: Button;
+  onClick: () => void;
   children: React.ReactElement;
 };
 
-const Button = ({ type, children }: Props) => {
-  switch (type) {
-    case value:
-      break;
+const Button = ({ customType, onClick, children }: Props) => {
+  const applyStyle = (type: Button) => {
+    switch (type) {
+      case "normal":
+        return css.normal;
+      case "red":
+        return css.red;
+      default:
+        return css.normal;
+    }
+  };
 
-    default:
-      break;
-  }
-
-  return <button className={css.type}>{children}</button>;
+  return (
+    <button className={applyStyle(customType)} onClick={onClick}>
+      {children}
+    </button>
+  );
 };
 
 export default Button;

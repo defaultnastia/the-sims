@@ -1,0 +1,12 @@
+.link {
+  padding: 40px 20px;
+  min-width: 320px;
+
+  border: 1px solid;
+  border-radius: 16px;
+
+  /* background-color: rgba(169, 169, 169, 0.323); */
+
+  font-size: 20px;
+  text-align: center;
+}
