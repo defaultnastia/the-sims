@@ -12,10 +12,16 @@ const MainPage = () => {
         </span>
       </h1>
       <div className={css.navigation}>
-        <NavigationLink target="/the-sims-2">The Sims 4 Codes</NavigationLink>
-        <NavigationLink target="/the-sims-3">The Sims 3 Codes</NavigationLink>
-        <NavigationLink target="/the-sims-4">The Sims 2 Codes</NavigationLink>
-        <NavigationLink target="/about">About</NavigationLink>
+        <NavigationLink target="/the-sims-2">
+          Коди для The Sims 2
+        </NavigationLink>
+        <NavigationLink target="/the-sims-3">
+          Коди для The Sims 3
+        </NavigationLink>
+        <NavigationLink target="/the-sims-4">
+          Коди для The Sims 4
+        </NavigationLink>
+        <NavigationLink target="/about">Про проєкт</NavigationLink>
       </div>
     </div>
   );

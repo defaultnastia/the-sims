@@ -11,8 +11,8 @@
   font-family: "Monoton", cursive;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 0 0 80px red, 0 0 30px FireBrick, 0 0 6px DarkRed;
-  color: red;
+  text-shadow: 0 0 80px var(--pink-color), 0 0 30px FireBrick, 0 0 6px DarkRed;
+  color: var(--pink-color);
 }
 .notFound div p {
   margin: 5px;
@@ -21,7 +21,7 @@
   text-shadow: 0 0 200px #ffffff, 0 0 80px #008000, 0 0 6px #0000ff;
 }
 .notFound .code:hover {
-  text-shadow: 0 0 100px red, 0 0 40px FireBrick, 0 0 8px DarkRed;
+  text-shadow: 0 0 100px var(--pink-color), 0 0 40px FireBrick, 0 0 8px DarkRed;
 } */
 .notFound .error {
   color: #fff;

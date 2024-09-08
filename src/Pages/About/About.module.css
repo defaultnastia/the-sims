@@ -1,0 +1,19 @@
+.about {
+  width: 400px;
+  margin: 100px auto;
+
+  text-align: center;
+  font-size: larger;
+
+  h2 {
+    margin-bottom: 20px;
+  }
+
+  p {
+    margin-bottom: 80px;
+    span {
+      color: var(--pink-color);
+      font-weight: bolder;
+    }
+  }
+}
